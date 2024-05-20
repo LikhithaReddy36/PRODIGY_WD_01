@@ -1,0 +1,35 @@
+
+
+ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    background-color:gray;
+    border-radius: 2px;
+    
+    }
+
+li {
+  align-items: center;
+  display: inline;
+}
+
+li a {
+  display: inline-block;
+  color:white;
+  text-align: center;
+  padding: 20px;
+  font-size: 25px;
+
+}
+li a:hover{
+    cursor: pointer;
+    color: red;
+}
+img{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
